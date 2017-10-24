@@ -12,6 +12,7 @@
     "jshint": "^2.9.5"
   },
   "scripts": {
+    "start": "node app.js",
     "test": "node node_modules/jshint/bin/jshint app.js"
   }
 }
