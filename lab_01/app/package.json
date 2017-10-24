@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "simple app for demonstration CI and CD",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Prischep Dmitriy",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  },
+  "scripts": {
+    "test": "node node_modules/jshint/bin/jshint app.js"
   }
 }
