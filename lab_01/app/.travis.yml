@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "node"
+  - "6"
+
+  deploy:
+    provider: heroku
+    app: rsoiapp
+    api_key:
+      secure: 16b0bce8-ac6b-4cc1-aa6f-7260db6dabc9
+    strategy: git
