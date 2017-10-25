@@ -4,15 +4,18 @@
   "description": "simple app for demonstration CI and CD",
   "main": "app.js",
   "author": "Prischep Dmitriy",
-  "license": "ISC",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node node_modules/jshint/bin/jshint app.js"
+  },
   "dependencies": {
     "express": "^4.16.2"
   },
   "devDependencies": {
     "jshint": "^2.9.5"
   },
-  "scripts": {
-    "start": "node app.js",
-    "test": "node node_modules/jshint/bin/jshint app.js"
+  "engines":{
+    "node": "6.9.x",
+    "npm": "3.10.x"
   }
 }
