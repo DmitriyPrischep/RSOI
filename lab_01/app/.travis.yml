@@ -5,6 +5,7 @@ node_js:
 before_install:
   cd ./lab_01/app
 
+script: node node_modules/jshint/bin/jshint app.js
 
   deploy:
     provider: heroku

@@ -5,7 +5,8 @@
   "main": "app.js",
   "author": "Prischep Dmitriy",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "node node_modules/jshint/bin/jshint app.js"
   },
   "dependencies": {
     "express": "^4.16.2"
